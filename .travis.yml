@@ -25,3 +25,7 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
+
+language: python
+python:
+  - "3.8"
